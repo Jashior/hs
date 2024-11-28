@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const port = 3000;
+const port = 1337;
 
 // Path to the JSON file
 const dataPath = path.join(__dirname, 'data', '2024-Leagues-Points.json');
